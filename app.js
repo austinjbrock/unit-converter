@@ -4,7 +4,7 @@
 //update details as soon as units are received
 
 const userInput = prompt('Enter Number')
-largeUnitDisplay = document.getElementById('inputUnitDisplay')
+let largeUnitDisplay = document.getElementById('inputUnitDisplay')
 
 largeUnitDisplay.innerText = userInput;
 
@@ -25,6 +25,10 @@ footDetails.textContent = `${userInput} meters = ${meterToFoot} Feet | ${userInp
 // Volume Formula
 let volumeConversion = document.getElementById('volumeConversion')
 
+let literToGallon = userInput * 0.26; 
+let gallonToLiter = userInput * 3.7854;
+
+volumeDetails.textContent = `${userInput} Liters = ${literToGallon} Gallons | ${userInput} Gallons = ${gallonToLiter} Liters`
 
 
 
