@@ -1,0 +1,41 @@
+body {
+   margin: 0 auto;
+   padding: 0;
+   text-align: center;
+   background-color: #1F2937;
+   color: #fff;
+   /* sub text will be #D2D2D2 */
+}
+
+.top-container {
+   background: linear-gradient(#585DFE, #FB3796);
+   height: 400px;
+   width: 100%;
+   margin: 0;
+}
+
+h1 {
+   margin:0 auto;
+   padding-top: 80px;
+   font-size:51px;
+}
+
+#inputUnitDisplay {
+   font-size: 97.57px;
+   font-weight: 800;
+}
+
+#details-section{
+   padding: 20px;
+   margin: 10px;
+}
+
+#unit-blocks{
+   padding: 20px;
+}
+
+p{
+   font-weight: 400;
+   letter-spacing: 1px;
+   font-size: 18px;
+}
