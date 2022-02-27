@@ -8,7 +8,7 @@ body {
 }
 
 .top-container {
-   background: linear-gradient(#585DFE, #FB3796);
+   background: linear-gradient(to right,#585DFE, #FB3796);
    height: 400px;
    width: 100%;
    margin: 0;
