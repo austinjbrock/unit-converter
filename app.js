@@ -11,11 +11,11 @@ largeUnitDisplay.innerText = userInput;
 //display Unit details
 let footDetails = document.getElementById('footDetails');
 let volumeDetails = document.getElementById('volumeDetails')
-let weightDetails = document.getElementById('weighDetails')
+let weightDetails = document.getElementById('weightDetails')
 
 // Length Formula
-let meterToFoot = userInput * 3.28084.toFixed(3);
-let footToMeter = userInput * 0.3048.toFixed(1);
+let meterToFoot = userInput * 3.28084.toFixed(4);
+let footToMeter = userInput * 0.3048.toFixed(4);
 
 // Length conversion Details
 footDetails.textContent = `${userInput} meters = ${meterToFoot} Feet | ${userInput} Feet = ${footToMeter} Meters`
@@ -25,14 +25,17 @@ footDetails.textContent = `${userInput} meters = ${meterToFoot} Feet | ${userInp
 // Volume Formula
 let volumeConversion = document.getElementById('volumeConversion')
 
-let literToGallon = userInput * 0.26; 
-let gallonToLiter = userInput * 3.7854;
+let literToGallon = userInput * 0.264172.toFixed(4)
+let gallonToLiter = userInput * 3.7854.toFixed(4);
 
 volumeDetails.textContent = `${userInput} Liters = ${literToGallon} Gallons | ${userInput} Gallons = ${gallonToLiter} Liters`
 
 
 
+//Mass Formulax
+let kilosToPounds = userInput * 2.20462
+let poundsToKilos = userInput * 0.453592.toFixed(4)
 
-//Mass Formula
-let weightConversion = document.getElementById('weightConversion')
 
+
+weightDetails.textContent = `${userInput} Kilos = ${kilosToPounds} Pounds | ${userInput} Pounds = ${poundsToKilos} Kilos`
