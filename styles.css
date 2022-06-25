@@ -1,5 +1,6 @@
 body {
    margin: 0 auto;
+   font-family:Georgia, 'Times New Roman', Times, serif;
    padding: 0;
    text-align: center;
    background-color: #1F2937;
@@ -8,8 +9,8 @@ body {
 }
 
 .top-container {
-   background: linear-gradient(to right,#585DFE, #FB3796);
-   height: 400px;
+   background: linear-gradient(to right,#585DFE, rgb(191, 81, 134));
+   height: 450px;
    width: 100%;
    margin: 0;
 }
@@ -24,6 +25,12 @@ h1 {
    font-size: 97.57px;
    font-weight: 800;
 }
+
+.unit-count {
+   font-size: 52px;
+   font-weight: 400;
+}
+
 
 #details-section{
    padding: 20px;
